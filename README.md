@@ -7,14 +7,14 @@ this guide assumes the user is ***completely unfamiliar*** with the langauges/so
 
 <br>
 
-**1. Download Visual Studio Community 2019.**
+### **1. Download Visual Studio Community 2019.**
 * You can download the Community version at this link, as well as get steps to help you through the installation: https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2019
 * When reaching "Step 4 - Choose workloads", you will select ".Net Desktop Development" and "Universal Windows Platform Development"
 * You can also skip all of the optional steps in the guide as they are not necessary for this demonstration
 
 <br>
 
-**2. Download the code**
+### **2. Download the code**
 * On this page. Click the green "Code" button. For this demonstration, we'll just download the .ZIP file.
 
 <br>
@@ -24,7 +24,7 @@ this guide assumes the user is ***completely unfamiliar*** with the langauges/so
 
 <br>
 
-**3. Open the solution file**
+### **3. Open the solution file**
 * In the "SdetProjectForFetch" folder, you'll see "SdetProjectForFetch.sln". Open this file to bring up the code in Visual Studio
 
 <br>
@@ -33,7 +33,7 @@ this guide assumes the user is ***completely unfamiliar*** with the langauges/so
 
 <br>
 
-**4. Clean and build the solution**
+### **4. Clean and build the solution**
 * As a precaution, we will clean and build the solution. In the top left corner, you will see the "Build" tab.
 * From there, click "Clean Solution" and then "Build Solution." They must be done in that order.
 
@@ -43,7 +43,7 @@ this guide assumes the user is ***completely unfamiliar*** with the langauges/so
 
 <br>
 
-**5. Run the test**
+### **5. Run the test**
 * If you do not see a "Test Explorer" tab in Visual Studio. Click on the "View" tab on the top left corner. From there, click on the "Test Explorer"
 <br>
 
