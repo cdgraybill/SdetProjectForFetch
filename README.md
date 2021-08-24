@@ -36,7 +36,10 @@ this guide assumes the user is ***completely unfamiliar*** with the langauges/so
 
 **5. Run the test**
 * If you do not see a "Test Explorer" tab in Visual Studio. Click on the "View" tab on the top left corner. From there, click on the "Test Explorer"
-![Screenshot (15)_LI](https://user-images.githubusercontent.com/45321575/130665849-6cb0ec60-c9b2-4f90-a6cc-8b7bcc3fbab2.jpg)
-* Once the Test Explorer is open, click on the "Run" button highlighted below. This will run the test script and automate the webpage to find the solution!
-![Screenshot (16)_LI](https://user-images.githubusercontent.com/45321575/130666601-01f19918-ddd5-4004-b401-631765d90e12.jpg)
+<br>
 
+![Screenshot (15)_LI](https://user-images.githubusercontent.com/45321575/130665849-6cb0ec60-c9b2-4f90-a6cc-8b7bcc3fbab2.jpg)
+* Once the Test Explorer is open, click on the "Run" button highlighted below.
+![Screenshot (16)_LI](https://user-images.githubusercontent.com/45321575/130666601-01f19918-ddd5-4004-b401-631765d90e12.jpg)
+* If all steps were completed successfully, the brower will automate the challenge webpage and will pass the test!
+![Screenshot (17)](https://user-images.githubusercontent.com/45321575/130669203-f921c964-56f4-4448-93ff-cf3221af5b2e.png)
