@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdetProjectForFetch", "SdetProjectForFetch\SdetProjectForFetch.csproj", "{F8DC59EC-FF63-4039-B01F-F4C019E7CA3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8DC59EC-FF63-4039-B01F-F4C019E7CA3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8DC59EC-FF63-4039-B01F-F4C019E7CA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8DC59EC-FF63-4039-B01F-F4C019E7CA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8DC59EC-FF63-4039-B01F-F4C019E7CA3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2469F647-D284-4103-8DAB-456C83D50F26}
+	EndGlobalSection
+EndGlobal
