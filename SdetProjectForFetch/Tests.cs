@@ -13,11 +13,6 @@ namespace SdetProjectForFetch
             Driver = new ChromeDriver();
         }
 
-        [TearDown]
-        public void TearDown()
-        {
-        }
-
         [Test]
         public void FindFakeGoldBar()
         {

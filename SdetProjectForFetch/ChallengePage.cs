@@ -52,7 +52,7 @@ namespace SdetProjectForFetch
         
         IWebElement ResetButton => Driver.FindElement(By.XPath("/html/body/div/div/div[1]/div[4]/button[1]"));
 
-        public string resultsOperator { get; set; }
+        private string ResultsOperator { get; set; }
 
         public void NavigateToChallengePage()
         {
@@ -87,14 +87,14 @@ namespace SdetProjectForFetch
 
             WeighButton.Click();
             Thread.Sleep(2000);
-            resultsOperator = Driver.FindElement(By.Id("reset")).Text;
+            ResultsOperator = Driver.FindElement(By.Id("reset")).Text;
 
-            if (resultsOperator == "=")
+            if (ResultsOperator == "=")
             {
                 ZeroButton.Click();
             }
 
-            if (resultsOperator == "<")
+            if (ResultsOperator == "<")
             {
                 ResetButton.Click();
 
@@ -105,13 +105,13 @@ namespace SdetProjectForFetch
                 WeighButton.Click();
                 Thread.Sleep(2000);
 
-                resultsOperator = Driver.FindElement(By.Id("reset")).Text;
+                ResultsOperator = Driver.FindElement(By.Id("reset")).Text;
 
-                if (resultsOperator == "<")
+                if (ResultsOperator == "<")
                 {
                     OneButton.Click();
                 }
-                else if (resultsOperator == ">")
+                else if (ResultsOperator == ">")
                 {
                     TwoButton.Click();
                 }
@@ -126,9 +126,9 @@ namespace SdetProjectForFetch
                     WeighButton.Click();
                     Thread.Sleep(2000);
 
-                    resultsOperator = Driver.FindElement(By.Id("reset")).Text;
+                    ResultsOperator = Driver.FindElement(By.Id("reset")).Text;
 
-                    if (resultsOperator == "<")
+                    if (ResultsOperator == "<")
                     {
                         ThreeButton.Click();
                     }
@@ -139,7 +139,7 @@ namespace SdetProjectForFetch
                 }
             }
 
-            if (resultsOperator == ">")
+            if (ResultsOperator == ">")
             {
                 ResetButton.Click();
 
@@ -150,13 +150,13 @@ namespace SdetProjectForFetch
                 WeighButton.Click();
                 Thread.Sleep(2000);
 
-                resultsOperator = Driver.FindElement(By.Id("reset")).Text;
+                ResultsOperator = Driver.FindElement(By.Id("reset")).Text;
 
-                if (resultsOperator == "<")
+                if (ResultsOperator == "<")
                 {
                     FiveButton.Click();
                 }
-                else if (resultsOperator == ">")
+                else if (ResultsOperator == ">")
                 {
                     SixButton.Click();
                 }
@@ -171,9 +171,9 @@ namespace SdetProjectForFetch
                     WeighButton.Click();
                     Thread.Sleep(2000);
 
-                    resultsOperator = Driver.FindElement(By.Id("reset")).Text;
+                    ResultsOperator = Driver.FindElement(By.Id("reset")).Text;
 
-                    if (resultsOperator == "<")
+                    if (ResultsOperator == "<")
                     {
                         SevenButton.Click();
                     }
